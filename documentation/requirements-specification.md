@@ -1,6 +1,6 @@
 # Requirements specification
 
-This application is a classic Minesweeper game. The goal of the game is to reveal all safe tiles on the board without triggering any mines. If a mine is revealed, the game ends in a loss. The game features three difficulties and tracks the user's personal best times for each of them.
+The objective of this project is to build a classic Minesweeper game, where the goal is to reveal all safe tiles on a board without triggering any mines. If a mine is revealed, the game ends in a loss. The application will support three difficulty levels and track the user's personal best times for each.
 
 ## Basic functionality
 
@@ -20,7 +20,7 @@ This application is a classic Minesweeper game. The goal of the game is to revea
     - A button that returns the user to the main menu when pressed.
     - A mine counter that shows how many mines remain to be flagged.
     - A timer that displays the elapsed time since the game started.
-    - The board itself, where the game is played.
+    - A game board where the actual gameplay takes place.
 - The user can interact with the board as follows:
     - Left clicking a tile reveals its content (either a mine, a number or a blank).
         - If the revealed tile has zero adjacent mines, all adjacent tiles are automatically revealed recursively.

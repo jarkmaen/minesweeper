@@ -8,14 +8,14 @@ Alternatively, if you want to run the application from the source code, refer to
 
 ## Playing the game
 
-The application starts at the main menu, where you can select a difficulty to begin a new game. Your personal bests (PBs) for each difficulty are also shown in the dropdown menus.
+The application starts at the main menu, where you can select a difficulty level to begin a new game. Your personal bests (PBs) for each difficulty are shown in the dropdown menus.
 
 <img src="images/main_menu.png">
 
-Once a game begins, left click a tile to reveal it. If you believe a tile is a mine, right click to place a flag on it.
+Once a game begins, left click a tile to reveal it. If you believe a tile contains a mine, right click to place a flag on it.
 
 <img src="images/game_board.png">
 
-When all safe tiles are revealed, you win the game and are taken to the victory screen. From here, you can enter your name and save your completion time to your personal bests or return to the main menu.
+When all safe tiles are revealed, the victory screen appears. From here, you can enter your name to save your completion time or return to the main menu.
 
 <img src="images/victory.png">
